@@ -1,0 +1,82 @@
+html,
+body {
+    background-color: lightgray;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header,
+footer {
+    width: 100%;
+}
+
+footer {
+    background-color: #690000;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.top-nav {
+    background-color: #690000;
+    position: relative;
+    padding: 18px;
+}
+
+.top-nav-center {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.top-nav-right {
+    float: right;
+}
+
+.bot-nav {
+    background-color: #690000;
+    position: relative;
+    text-align: center;
+    padding: 8px;
+}
+
+.bot-nav-item {
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.foot-text {
+    color: white;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 18px;
+    padding: 18px;
+}
+
+.icon {
+    width: 30px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+}
+
+.login {
+    color: white;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 6px;
+}

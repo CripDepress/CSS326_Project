@@ -1,0 +1,1 @@
+In case of error, please change the localhost port inside connect.php files

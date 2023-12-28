@@ -1,0 +1,199 @@
+html,
+body {
+    background-color: lightgray;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header,
+footer {
+    width: 100%;
+}
+
+footer {
+    background-color: #690000;
+    position: relative;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.top-nav {
+    background-color: #690000;
+    position: relative;
+    padding: 18px;
+}
+
+.top-nav-center {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.top-nav-right {
+    float: right;
+}
+
+.bot-nav {
+    background-color: #690000;
+    position: relative;
+    text-align: center;
+    padding: 8px;
+}
+
+.bot-nav-item {
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.foot-text {
+    color: white;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 18px;
+    padding: 18px;
+}
+
+.icon {
+    width: 30px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+}
+
+.login {
+    color: white;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.wrapper {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 1000px;
+}
+
+.movie-card {
+    width: 50vw;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.movie-card img {
+    /* height: %125; */
+    width: 30%;
+    margin: 20px;
+    float: left;
+    /* transform: translate(0%, -15%) */
+}
+
+.text-wp {
+    margin: 10px;
+    text-align: left;
+}
+
+.searchbar {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px;
+    box-shadow: 2px 3px lightslategray;
+    background-color: white;
+}
+
+.form-inline {
+    margin: 0px;
+}
+
+input[type="date"] { 
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    height: 34px;
+}
+
+select {
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: "_images/caret-down.png" 96% / 15% no-repeat #eee;
+}
+
+button[type=submit] {
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    border-radius: 10px;
+    background-color: #690000;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.movie-hall-tab {
+    background-color:white;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+
+.movie-hall-tab h3 {
+    text-align: left;
+    color: white;
+    background-color: #690000;
+    height: 30px;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.movie-hall-tab a {
+    color: #690000;
+    background-color: white;
+    border-style: solid;
+    border-color: #690000;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 300ms;
+}
+
+.movie-hall-tab a:hover {
+    color: white;
+    background-color: #690000;
+}

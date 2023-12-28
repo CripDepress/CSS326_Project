@@ -1,0 +1,180 @@
+html,
+body {
+    background-color: lightgray;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header,
+footer {
+    width: 100%;
+}
+
+footer {
+    background-color: #690000;
+    position: relative;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.top-nav {
+    background-color: #690000;
+    position: relative;
+    padding: 18px;
+}
+
+.top-nav-center {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.top-nav-right {
+    float: right;
+}
+
+.bot-nav {
+    background-color: #690000;
+    position: relative;
+    text-align: center;
+    padding: 8px;
+}
+
+.bot-nav-item {
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.foot-text {
+    color: white;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 18px;
+    padding: 18px;
+}
+
+.icon {
+    width: 30px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+}
+
+.login {
+    color: white;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.wrapper {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+
+.seat_wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(8, 1fr); 
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+input[type=checkbox].css-checkbox{ display: none; }
+
+.css-label-0-0{
+    width: 50px;
+    height: 50px; 
+    background-image: url(/CSS326_Project/_images/seattype1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.css-label-0-1{
+    width: 50px;
+    height: 50px; 
+    background-image: url(/CSS326_Project/_images/seattype1_Unava.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.css-label-1-0{
+    width: 50px;
+    height: 50px; 
+    background-image: url(/CSS326_Project/_images/seattype2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.css-label-1-1{
+    width: 50px;
+    height: 50px; 
+    background-image: url(/CSS326_Project/_images/seattype2_Unava.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label-0-0 {
+ background-position: 0 0;
+ background-image: url(/CSS326_Project/_images/seattype1_selected.png);
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label-1-0 {
+    background-position: 0 0;
+    background-image: url(/CSS326_Project/_images/seattype2_selected.png);
+}
+
+button[type=submit] {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border: none;
+    color: #690000;
+    background-color: white;
+    border-style: solid;
+    border-color: #690000;
+    padding: 13px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+button[type=submit]:hover {
+    color: white;
+    background-color: #690000;
+}
+    
+
+.cancle-button {
+    color: #690000;
+    background-color: white;
+    border-style: solid;
+    border-color: #690000;
+    padding: 10px 18px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 300ms;
+}
+
+.cancle-button:hover {
+    color: white;
+    background-color: #690000;
+}
